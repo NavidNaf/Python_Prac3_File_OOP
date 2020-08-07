@@ -1,3 +1,9 @@
+# this is quiet impossible to do without regex
+# meant for regex
+# did iterations, chunks and many algorithms but did not work
+# processing is tough
+# regex makes it easier
+# the problem has been given to practice regex
 import csv
 import re
 from sys import argv
