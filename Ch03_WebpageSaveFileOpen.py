@@ -9,7 +9,7 @@ response = requests.get(url)
 htmlStr = response.text
 
 # copying the webpage to a file
-with open("blueriv.html", "w") as file:
+with open("blueriv.html", "w", encoding=response.encoding) as file:
     file.write(htmlStr)
 
 filePath = os.path.realpath("blueriv.html")
