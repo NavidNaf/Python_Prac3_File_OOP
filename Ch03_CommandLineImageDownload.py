@@ -7,7 +7,7 @@ if len(argv) != 3:
 url = argv[1]
 response = requests.get(url)
 
-imageContent = response.content
+imageContent = response.content  # content, text no bracket; not callable
 
 with open(argv[2], "wb") as imageFile:
     imageFile.write(imageContent)
