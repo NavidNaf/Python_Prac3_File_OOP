@@ -17,7 +17,7 @@ class Vehicle():
 class Car(Vehicle):
 
     def __init__(self, name, manufacturer, color, year):
-        super().__init__(name, manufacturer, color)
+        super().__init__(name, manufacturer, color) # no self here.
         self.year = year
         self.wheel = 4
         print(f"A new car has been created, Name: {self.name}")
