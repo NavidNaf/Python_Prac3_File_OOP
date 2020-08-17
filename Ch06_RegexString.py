@@ -9,4 +9,8 @@ for country in counrtyList:
     if country.endswith("land"):
         countryLand.append(country)
 
+countryLand2 = [country for country in counrtyList if country.endswith(
+    "land") or country.endswith("lands")]
+
 print(countryLand)
+print(countryLand2)
